@@ -12,9 +12,35 @@ console.log(typeof(c))
 // Ravi5
 //stirng
 
-//Q3  Create a constant object in Javascript. Can you change it to hold a number later?
-//Q4  Try to add a new key to the const object in the problem 3. Were you able to do it?
 
+//Q3  Create a constant object in Javascript. Can you change it to hold a number later?
+const item= {
+  Wheat: 10,
+  Barley: 9,
+  Rice: 5
+}
+//item  = "Ravi"       //No, it can't be changed later because it is already declared
+
+
+//Q4  Try to add a new key to the const object in the problem 3. Were you able to do it?
+const item= {
+  Wheat: 10,
+  Barley: 9,
+  Rice: 5
+}
+item["Wheat"] = 20
+item["Gram"] = 5
+console.log(item)
+
+//Output: 
+//{ Wheat: 20, Barley: 9, Rice: 5, Gram: 5 }
 
 //Q5  Write a JS program to create a word meaning dictionary of 5 words
-
+const dictionary={
+  Pelter : "A thrower of missiles",
+  Concretize : "Make something concrete",
+  Lubberly : "Clumsy and Unskilled",
+  Cordial : "Polietly warm and friendly",
+  Tamp : "Press down tightly"
+}
+console.log(dictionary.Tamp)
