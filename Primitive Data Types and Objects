@@ -1,0 +1,27 @@
+//There are 7 types of data types == NN SS BB U
+// N==Null     N==Number   S==Symbol   S==String    B==Boolean    B==BigINT     U==Undefined
+// Object is non primriive data type where objects are key value pairs
+
+console.log("Creating Primitive data types and objects") 
+
+let a = null
+let b = 23
+let c = "Ravi"
+let d = Symbol("I am a nice Symbol")
+let e = true    // it can be false
+let f = BigInt("3423434322")+BigInt("83844348")
+let g = undefined
+let h
+console.log(a,b,c,d,e,f,g,h)
+
+
+
+console.log("Objects in javascript")
+
+const item = {
+  "Ravi": true,
+  "Amit": false,
+  "Prakash": 76,
+  "Deepak": undefined
+}
+console.log(item["Ravi"])
