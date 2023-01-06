@@ -1,0 +1,20 @@
+//Q1  Create a variable of type string and try to add a number to it 
+
+//Q2  Use typeof operator to find the datatype of the string in the last question
+
+let a = "Ravi"
+let b = 5
+let c = a+b
+console.log(c)
+console.log(typeof(c))
+
+// Output:
+// Ravi5
+//stirng
+
+//Q3  Create a constant object in Javascript. Can you change it to hold a number later?
+//Q4  Try to add a new key to the const object in the problem 3. Were you able to do it?
+
+
+//Q5  Write a JS program to create a word meaning dictionary of 5 words
+
