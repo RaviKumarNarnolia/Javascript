@@ -1,0 +1,51 @@
+let a = prompt("Hey What's your age")     //prompt asks and converts its input to string
+console.log(typeof a)
+
+a = Number.parseInt(a)      //it converts a string to number
+console.log(typeof a)
+
+
+// if, else if, else statements
+
+let a = prompt("Hey What's your age")     //prompt asks and converts its input to string
+console.log(typeof a)
+
+a = Number.parseInt(a)      //it converts a string to number
+console.log(typeof a)
+
+if(a<0){
+  alert("Please write an invalid age")       //alert just tell the output of given input
+}
+else if(a<9){
+  alert("You are a kid and you even cannot think of driving")
+}
+else if(a<18 && a>=9){
+  alert("You are a kid and you can think of driving above 18")
+}
+else{
+  alert("You can drive as you are above 18")
+}
+
+
+//Turnary Operators
+
+let age = prompt("Hey Whats your age")
+console.log("You", (age<18?"cannot drive": "can drive"))
+
+
+//Switch case statements
+
+const fruit = "Apple"
+switch(fruit){
+  case" Mangoes": 
+    console.log("Mangoes are Rs50/kg")
+    break
+  case "Banana":
+    console.log("Apples are Rs20/Kg")
+    break
+  case "Apple":
+    console.log("Apples are Rs100/Kg")
+    break
+  default:
+    console.log("Rates are not defined")
+}
