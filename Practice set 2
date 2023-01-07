@@ -11,5 +11,45 @@ else{
 
 //Q2 Demonstrate the use switch case statements in Javascript
 
+const fruit = prompt("Which fruit would you want to buy? ")
+switch(fruit){
+  case "Mangoes": console.log("Mangoes are Rs50/Kg")
+    break;
+  case "Banana": console.log("Bananas are Rs30/Kg")
+    break;
+  case "Apple": console.log("Apples are Rs100/Kg")
+    break;
+  default: console.log("Out of Stock")
+}
+
+
 //Q3 Write a Javascript program to find whether a number is divisible by 2 and 3
-//Q4 Print you can drive or you cannot drive based on the age greater than 18 using turnary operator
+
+let a = prompt("Write a number")
+a = Number.parseInt(a)
+if(a%2==0 && a%3==0){
+  console.log("This number is divisible by 6")
+}
+else{
+  console.log("This is number is not divisible by 6")
+}
+
+
+//Q4 Write a Javascript program to find whether a number is divisible by 2 or 3
+
+let a = prompt("Write a number")
+a = Number.parseInt(a)
+if(a%2==0 || a%3==0){
+  console.log("This number is divisible by 2 or 3")
+}
+else{
+  console.log("This is number is not divisible by 2 or 3")
+}
+
+
+//Q5 Print 'you can drive' or 'you cannot drive' based on the age greater than 18 using ternary operator
+
+let a = prompt("Write a number")
+a = Number.parseInt(a)
+console.log("You can",(a>18?"drive":"not drive"))
+
