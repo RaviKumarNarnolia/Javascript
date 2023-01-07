@@ -1,0 +1,15 @@
+//Q1 Use logical operators to find whether the age of a person lies between 10 and 20
+
+let a = prompt("Please write your age")
+if(a>10 && a<20){
+  alert("Yes, you are eligible")
+}
+else{
+  alert("You are not eligible")
+}
+
+
+//Q2 Demonstrate the use switch case statements in Javascript
+
+//Q3 Write a Javascript program to find whether a number is divisible by 2 and 3
+//Q4 Print you can drive or you cannot drive based on the age greater than 18 using turnary operator
