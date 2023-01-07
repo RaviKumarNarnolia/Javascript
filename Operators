@@ -1,0 +1,57 @@
+console.log("Operators in JS")
+
+//Arithmetic Operators
+let a = 45
+let b = 4
+console.log("a+b = ", a+b)
+console.log("a-b = ", a-b)
+console.log("a*b = ", a*b)
+console.log("a/b = ", a/b)
+console.log("a**b = ", a**b)     //power opertor
+console.log("a%b = ", a%b) 
+console.log("++a = ",++a)      //modulous operator
+console.log("a++ = ",a++);
+console.log("--a = ",--a)
+console.log("a-- =",a--)
+console.log("a = ", a)
+
+
+//Assignment Operators
+let a = 45
+let b = 4
+a+=5   //Same as a = a+5
+console.log(a)
+a-=5
+console.log(a)
+a*=5
+console.log(a)
+a/=5
+console.log(a)
+a**=5
+console.log(a)
+a%=5
+console.log(a)
+
+
+//Comparison Operator
+let a = 45
+let  b = 5
+let c = "45"
+console.log("a==b is ", a==b)     //false
+console.log("a==c is ", a==c)     //true     //only value must equal
+console.log("a!=b is ", a!=b)     //true
+console.log("a!=c is ", a!=c)     //false
+console.log("a===b is ", a===b)   //false
+console.log("a===c is ", a===c)   //false     // value and data type must be same
+console.log("a!==b is ", a!==b)   //true
+console.log("a!==c is ", a!==c)   //true
+console.log("a>b is ", a>b)       //true
+console.log("a>=b is ", a>=b)     //true
+
+
+//Logical Operators
+let a = 45
+let  b = 5
+console.log(a>b && b==5)
+console.log(a<b || b==5)
+console.log(!true)
