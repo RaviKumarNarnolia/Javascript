@@ -1,0 +1,35 @@
+// For loops in javascript
+
+let sum = 0
+let n = prompt("Write the value of n")
+for(let i=1;i<=n;i++){
+  sum+=i
+}
+console.log("The sum of first ",n, "naturals numbers is", sum)
+
+
+//for-in loops in javascript
+
+let obj = {
+  Ravi : 90,
+  Ashish : 85,
+  Mohit : 87,
+  Priyanka : 95,
+  Prerna : 86
+}
+for(let a in obj){
+  console.log("Marks of ",a," are "+obj[a])
+}
+
+//for-of loops in javascript
+
+let obj = {
+  Ravi : 90,
+  Ashish : 85,
+  Mohit : 87,
+  Priyanka : 95,
+  Prerna : 86
+}
+for(let b of "Priyanka"){
+  console.log(b)
+}
