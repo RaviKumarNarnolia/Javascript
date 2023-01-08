@@ -1,7 +1,46 @@
 //Q1 Write a program to print the marks of students in an obj using for loop
 
+let marks = {
+  harry: 98,
+  rohan: 70,
+  aakash: 7
+}
+for(let i= 0;i<Object.keys(marks).length;i++){
+  console.log("The marks of ", Object.keys(marks)[i], " are ", marks[Object.keys(marks)[i]])
+} 
+
+
 //Q2 Write the program in Q1 using for in loop
+
+let marks = {
+  harry: 98,
+  rohan: 70,
+  aakash: 7
+}
+for(let a in marks){
+  console.log("The marks of ", a, " are ", marks[a])
+}
+
 
 //Q3 Write a program to print "try again" until the user write a correct number
 
+let cn = 32
+let i
+while(i!=cn){
+  console.log("Try again")
+  i = prompt("Enter the correct the number")
+}
+console.log("You have entered the correct number")
+
+
 //Q4 Write a function to find the mean of 5 number
+
+let mean = (a,b,c,d,e) =>{
+  return (a+b+c+d+e)/5
+}
+let a = 5
+let b = 4
+let c = 7
+let d = 2
+let e = 9
+console.log(mean(a,b,c,d,e))
