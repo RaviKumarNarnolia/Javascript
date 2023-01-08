@@ -1,0 +1,39 @@
+//Functions
+
+function avgrd(x,y){
+  return Math.round((x+y)/2)
+}
+
+let a = 5
+let b = 2
+let c = 7
+ console.log("Result of a and b is ", avgrd(a,b))
+ console.log("Result of b and c is ", avgrd(b,c))
+ console.log("Result of a and c is ", avgrd(a,c))
+ 
+ 
+ //arrow function
+//Example 1
+
+const sum = (p,q)=>{
+  return p+q
+}
+console.log(sum(4,5))
+
+
+//Example 2
+
+const hello = () =>{
+  console.log("Hey how are you? I am fine")
+}
+hello();
+
+
+//Example 3
+
+const hello = () =>{
+  console.log("Hey how are you? I am fine")
+  return "Hi";
+}
+let v =hello()
+console.log(v)
