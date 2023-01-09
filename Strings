@@ -1,0 +1,38 @@
+//Strings
+
+let name  = "Ravi"
+console.log(name.length)
+console.log(name[0])
+console.log(name[1])
+let friend = 'Prakash'
+console.log(friend)
+
+
+//Template literals use backtics instead of quotes to define a string
+
+let boy1 = "Prakash";
+let boy2 = "Amit";
+let sentence = `boy2 is friend of boy1`
+//We can insert variables directly in template literals. This is called string interpolation.
+let sentence1 = `${boy2} is friend of ${boy1}`
+console.log(sentence)
+console.log(sentence1)
+
+
+//Escape Sequence Character
+
+let fruit1 = 'Bana\'na'
+let fruit2 = 'App\nle'
+let fruit3 = 'Oran\tge'
+let fruit4 = 'Papay\ra'
+console.log(fruit1)
+console.log(fruit2)
+console.log(fruit3)
+console.log(fruit4)
+
+//Output
+//Bana'na
+//App
+//le
+//Oran    ge
+//aapay
