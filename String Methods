@@ -1,0 +1,16 @@
+//Some string methods
+
+let name  = "Priyanka"
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2,4))
+console.log(name.replace("yanka","ya"))
+console.log(name.concat(" Kumari"))
+console.log(name.trim())                 //remove white spaces
+
+let name  = "Priyanka"
+
+for(let i=0;i<name.length;i++){
+  console.log(name[i])
+}
