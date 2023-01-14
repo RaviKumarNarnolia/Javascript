@@ -1,0 +1,14 @@
+//Q1 What will following print in the javascript?
+console.log("har\"")     // =>  4
+
+//Q2 Explore the includes, startwith and endwith funtions in a the string
+
+//Q3 Write a program to convert a string into the lowercase
+
+let a = "Ravi Kumar Narnolia"
+console.log(a.toLowerCase())
+
+
+//Q4 Extract the amount out of "Please give Rs 1000"
+
+//Q5 Try to change the 4th character in the previous question
